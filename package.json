@@ -1,0 +1,22 @@
+{
+  "name": "udemy-natours",
+  "version": "1.0.0",
+  "description": "first project of Advanced CSS and SASS project in Udemy",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysrbdlgn/Udemy-Natours.git"
+  },
+  "author": "ysrbdlgn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysrbdlgn/Udemy-Natours/issues"
+  },
+  "homepage": "https://github.com/ysrbdlgn/Udemy-Natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
